@@ -1,12 +1,11 @@
 'use client'
-import toto from '../assets/audio-aurel-elodie.mp3'
-import useSound from 'use-sound';
-import Button from '../components/Button.js'
+import audio from '../assets/audio-aurel-elodie.mp3'
+import useSound from 'use-sound'
 
 export default function Home() {
 
   const [playSound, { stop, pause, isPlaying }] = useSound(
-    toto,
+    audio,
     {
       sprite:{
       andre: [0, 31500],
@@ -35,7 +34,9 @@ export default function Home() {
     playSound({id:'andre'})
   }
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-4">
+    <main className="flex min-h-screen flex-col items-center p-4">
+      <h1 className='text-xl mb-4'>Mariage Aurélien et Élodie</h1>
+
       <div className="grid grid-cols-3 gap-4">
         <button className=" w-full rounded-md bg-emerald-300 py-4 px-2" onClick={()=>sound()}>André</button>
         <button className="rounded-md bg-emerald-300 py-4 px-2" onClick={()=>playSound({id:'taz'})}>Taz</button>
@@ -55,8 +56,8 @@ export default function Home() {
         <button className="rounded-md bg-emerald-300 py-4 px-2" onClick={()=>playSound({id:'balavoine'})}>Balvoine</button>
         <button className="rounded-md bg-emerald-300 py-4 px-2" onClick={()=>playSound({id:'rolland'})}>Rolland</button>
       </div>
-      <Button />
-      <button className="rounded-md w-full bg-emerald-300 p-4" onClick={()=>stop()}>Stop</button>
+        <button className="rounded-md w-full bg-emerald-300 p-4 absolute bottom-4" onClick={()=>stop()}>Stop</button>
+
     </main>
   )
 }
