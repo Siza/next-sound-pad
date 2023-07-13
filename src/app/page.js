@@ -39,26 +39,26 @@ export default function Home() {
       <h1 className='text-xl mb-4'>Mariage Aurélien et Élodie</h1>
 
       <div className="grid grid-cols-3 gap-4">
-        <button className=" w-full rounded-md bg-emerald-300 py-4 px-2" onClick={()=>sound()}>André</button>
-        <button className="rounded-md bg-emerald-300 py-4 px-2" onClick={()=>playSound({id:'stephane'})}>Stéphane</button>
-        <button className="rounded-md bg-emerald-300 py-4 px-2" onClick={()=>playSound({id:'taz'})}>Taz</button>
-        <button className="rounded-md bg-emerald-300 py-4 px-2" onClick={()=>playSound({id:'liliane'})}>Liliane</button>
-        <button className="rounded-md bg-emerald-300 py-4 px-2" onClick={()=>playSound({id:'bestof1'})}>Bestof1</button>
-        <button className="rounded-md bg-emerald-300 py-4 px-2" onClick={()=>playSound({id:'inconnus'})}>Inconnus</button>
-        <button className="rounded-md bg-emerald-300 py-4 px-2" onClick={()=>playSound({id:'bronzes'})}>Bronzés</button>
-        <button className="rounded-md bg-emerald-300 py-4 px-2" onClick={()=>playSound({id:'didier'})}>Didier</button>
-        <button className="rounded-md bg-emerald-300 py-4 px-2" onClick={()=>playSound({id:'nicho'})}>Nicho</button>
-        <button className="rounded-md bg-emerald-300 py-4 px-2" onClick={()=>playSound({id:'kamel1'})}>Kamel 1</button>
-        <button className="rounded-md bg-emerald-300 py-4 px-2" onClick={()=>playSound({id:'kamel2'})}>Kamel 2</button>
-        <button className="rounded-md bg-emerald-300 py-4 px-2" onClick={()=>playSound({id:'bestof2'})}>Bestof2</button>
-        <button className="rounded-md bg-emerald-300 py-4 px-1" onClick={()=>playSound({id:'cyclisme'})}>Cyclisme</button>
-        <button className="rounded-md bg-emerald-300 py-4 px-2" onClick={()=>playSound({id:'psg'})}>PSG</button>
-        <button className="rounded-md bg-emerald-300 py-4 px-2" onClick={()=>playSound({id:'bestof3'})}>Bestof3</button>
-        <button className="rounded-md bg-emerald-300 py-4 px-2" onClick={()=>playSound({id:'bestof4'})}>Bestof4</button>
-        <button className="rounded-md bg-emerald-300 py-4 px-2" onClick={()=>playSound({id:'balavoine'})}>Balvoine</button>
-        <button className="rounded-md bg-emerald-300 py-4 px-2" onClick={()=>playSound({id:'rolland'})}>Rolland</button>
+        <button className="rounded-md bg-emerald-300 hover:bg-emerald-400 active:bg-emerald-500 focus:outline-none focus:ring focus:ring-violet-500 py-4 px-2 drop-shadow-md active:filter-none" onClick={()=>sound()}>André</button>
+        <button className="rounded-md bg-emerald-300 hover:bg-emerald-400 active:bg-emerald-500 focus:outline-none focus:ring focus:ring-violet-500 py-4 px-2 drop-shadow-md active:filter-none" onClick={()=>playSound({id:'stephane'})}>Stéphane</button>
+        <button className="rounded-md bg-emerald-300 hover:bg-emerald-400 active:bg-emerald-500 focus:outline-none focus:ring focus:ring-violet-500 py-4 px-2 drop-shadow-md active:filter-none" onClick={()=>playSound({id:'taz'})}>Taz</button>
+        <button className="rounded-md bg-emerald-300 hover:bg-emerald-400 active:bg-emerald-500 focus:outline-none focus:ring focus:ring-violet-500 py-4 px-2 drop-shadow-md active:filter-none" onClick={()=>playSound({id:'liliane'})}>Liliane</button>
+        <button className="rounded-md bg-emerald-300 hover:bg-emerald-400 active:bg-emerald-500 focus:outline-none focus:ring focus:ring-violet-500 py-4 px-2 drop-shadow-md active:filter-none" onClick={()=>playSound({id:'bestof1'})}>Bestof1</button>
+        <button className="rounded-md bg-emerald-300 hover:bg-emerald-400 active:bg-emerald-500 focus:outline-none focus:ring focus:ring-violet-500 py-4 px-2 drop-shadow-md active:filter-none" onClick={()=>playSound({id:'inconnus'})}>Inconnus</button>
+        <button className="rounded-md bg-emerald-300 hover:bg-emerald-400 active:bg-emerald-500 focus:outline-none focus:ring focus:ring-violet-500 py-4 px-2 drop-shadow-md active:filter-none" onClick={()=>playSound({id:'bronzes'})}>Bronzés</button>
+        <button className="rounded-md bg-emerald-300 hover:bg-emerald-400 active:bg-emerald-500 focus:outline-none focus:ring focus:ring-violet-500 py-4 px-2 drop-shadow-md active:filter-none" onClick={()=>playSound({id:'didier'})}>Didier</button>
+        <button className="rounded-md bg-emerald-300 hover:bg-emerald-400 active:bg-emerald-500 focus:outline-none focus:ring focus:ring-violet-500 py-4 px-2 drop-shadow-md active:filter-none" onClick={()=>playSound({id:'nicho'})}>Nicho</button>
+        <button className="rounded-md bg-emerald-300 hover:bg-emerald-400 active:bg-emerald-500 focus:outline-none focus:ring focus:ring-violet-500 py-4 px-2 drop-shadow-md active:filter-none" onClick={()=>playSound({id:'kamel1'})}>Kamel 1</button>
+        <button className="rounded-md bg-emerald-300 hover:bg-emerald-400 active:bg-emerald-500 focus:outline-none focus:ring focus:ring-violet-500 py-4 px-2 drop-shadow-md active:filter-none" onClick={()=>playSound({id:'kamel2'})}>Kamel 2</button>
+        <button className="rounded-md bg-emerald-300 hover:bg-emerald-400 active:bg-emerald-500 focus:outline-none focus:ring focus:ring-violet-500 py-4 px-2 drop-shadow-md active:filter-none" onClick={()=>playSound({id:'bestof2'})}>Bestof2</button>
+        <button className="rounded-md bg-emerald-300 hover:bg-emerald-400 active:bg-emerald-500 focus:outline-none focus:ring focus:ring-violet-500 py-4 px-1 drop-shadow-md active:filter-none" onClick={()=>playSound({id:'cyclisme'})}>Cyclisme</button>
+        <button className="rounded-md bg-emerald-300 hover:bg-emerald-400 active:bg-emerald-500 focus:outline-none focus:ring focus:ring-violet-500 py-4 px-2 drop-shadow-md active:filter-none" onClick={()=>playSound({id:'psg'})}>PSG</button>
+        <button className="rounded-md bg-emerald-300 hover:bg-emerald-400 active:bg-emerald-500 focus:outline-none focus:ring focus:ring-violet-500 py-4 px-2 drop-shadow-md active:filter-none" onClick={()=>playSound({id:'bestof3'})}>Bestof3</button>
+        <button className="rounded-md bg-emerald-300 hover:bg-emerald-400 active:bg-emerald-500 focus:outline-none focus:ring focus:ring-violet-500 py-4 px-2 drop-shadow-md active:filter-none" onClick={()=>playSound({id:'bestof4'})}>Bestof4</button>
+        <button className="rounded-md bg-emerald-300 hover:bg-emerald-400 active:bg-emerald-500 focus:outline-none focus:ring focus:ring-violet-500 py-4 px-2 drop-shadow-md active:filter-none" onClick={()=>playSound({id:'balavoine'})}>Balvoine</button>
+        <button className="rounded-md bg-emerald-300 hover:bg-emerald-400 active:bg-emerald-500 focus:outline-none focus:ring focus:ring-violet-500 py-4 px-2 drop-shadow-md active:filter-none" onClick={()=>playSound({id:'rolland'})}>Rolland</button>
       </div>
-        <button className="rounded-md w-full bg-emerald-300 p-4 absolute bottom-4" onClick={()=>stop()}>Stop</button>
+        <button className="rounded-md w-full bg-emerald-300 p-4 absolute bottom-4 drop-shadow-md active:filter-none" onClick={()=>stop()}>Stop</button>
 
     </main>
   )
