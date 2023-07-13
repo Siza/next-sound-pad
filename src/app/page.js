@@ -1,5 +1,5 @@
 'use client'
-import audio from '../assets/audio-aurel-elodie.mp3'
+import audio from '../assets/audio3.mp3'
 import useSound from 'use-sound'
 
 export default function Home() {
@@ -9,22 +9,23 @@ export default function Home() {
     {
       sprite:{
       andre: [0, 31500],
-      taz:[32000, 4000],
-      liliane:[37000, 24900],
-      bestof1:[62000, 5610],
-      inconnus:[68000, 9800],
-      bronzes:[79000, 15500],
-      didier:[94000, 2400],
-      nicho:[97000, 32400],
-      kamel1:[130000, 18700],
-      kamel2:[149000, 26300],
-      bestof2:[176000, 5900],
-      cyclisme:[182000, 15500],
-      psg:[198000, 34900],
-      bestof3:[233000, 5200],
-      bestof4:[239000, 6700],
-      balavoine:[246000, 4800],
-      rolland:[251800, 12500]
+      stephane:[32000, 26700],
+      taz:[60000, 4000],
+      liliane:[65000, 24900],
+      bestof1:[90000, 5610],
+      inconnus:[96000, 9800],
+      bronzes:[106000, 15500],
+      didier:[122000, 2400],
+      nicho:[125000, 32400],
+      kamel1:[158000, 18700],
+      kamel2:[177000, 26300],
+      bestof2:[204000, 5900],
+      cyclisme:[210000, 15500],
+      psg:[226000, 34900],
+      bestof3:[262000, 5200],
+      bestof4:[267000, 6700],
+      balavoine:[274000, 4800],
+      rolland:[280000, 12500]
     },
     interrupt: true
     }
@@ -39,6 +40,7 @@ export default function Home() {
 
       <div className="grid grid-cols-3 gap-4">
         <button className=" w-full rounded-md bg-emerald-300 py-4 px-2" onClick={()=>sound()}>André</button>
+        <button className="rounded-md bg-emerald-300 py-4 px-2" onClick={()=>playSound({id:'stephane'})}>Stephane</button>
         <button className="rounded-md bg-emerald-300 py-4 px-2" onClick={()=>playSound({id:'taz'})}>Taz</button>
         <button className="rounded-md bg-emerald-300 py-4 px-2" onClick={()=>playSound({id:'liliane'})}>Liliane</button>
         <button className="rounded-md bg-emerald-300 py-4 px-2" onClick={()=>playSound({id:'bestof1'})}>Bestof1</button>
