@@ -35,7 +35,7 @@ export default function Home() {
     playSound({id:'andre'})
   }
   return (
-    <main className="flex min-h-screen flex-col items-center p-4">
+    <main className="flex min-h-screen flex-col items-center p-4 bg-slate-200">
       <h1 className='text-xl mb-4'>Mariage Aurélien et Élodie</h1>
 
       <div className="grid grid-cols-3 gap-4">
