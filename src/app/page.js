@@ -11,21 +11,21 @@ export default function Home() {
       andre: [0, 31500],
       stephane:[32000, 26700],
       taz:[60000, 4000],
-      liliane:[65000, 24900],
-      bestof1:[90000, 5610],
-      inconnus:[96000, 9800],
-      bronzes:[106000, 15500],
-      didier:[122000, 2400],
+      liliane:[65000, 26000],
+      bestof1:[91000, 5610],
+      inconnus:[97000, 9800],
+      bronzes:[107000, 15500],
+      didier:[123100, 2700],
       nicho:[125000, 32400],
-      kamel1:[158000, 18700],
-      kamel2:[177000, 26300],
-      bestof2:[204000, 5900],
-      cyclisme:[210000, 15500],
-      psg:[226000, 34900],
+      kamel1:[158900, 18890],
+      kamel2:[177500, 26300],
+      bestof2:[204000, 6100],
+      cyclisme:[210500, 15500],
+      psg:[226500, 34900],
       bestof3:[262000, 5200],
-      bestof4:[267000, 6700],
-      balavoine:[274000, 4800],
-      rolland:[280000, 12500]
+      bestof4:[267500, 6900],
+      balavoine:[275000, 4800],
+      rolland:[280500, 12500]
     },
     interrupt: true
     }
@@ -40,7 +40,7 @@ export default function Home() {
 
       <div className="grid grid-cols-3 gap-4">
         <button className=" w-full rounded-md bg-emerald-300 py-4 px-2" onClick={()=>sound()}>André</button>
-        <button className="rounded-md bg-emerald-300 py-4 px-2" onClick={()=>playSound({id:'stephane'})}>Stephane</button>
+        <button className="rounded-md bg-emerald-300 py-4 px-2" onClick={()=>playSound({id:'stephane'})}>Stéphane</button>
         <button className="rounded-md bg-emerald-300 py-4 px-2" onClick={()=>playSound({id:'taz'})}>Taz</button>
         <button className="rounded-md bg-emerald-300 py-4 px-2" onClick={()=>playSound({id:'liliane'})}>Liliane</button>
         <button className="rounded-md bg-emerald-300 py-4 px-2" onClick={()=>playSound({id:'bestof1'})}>Bestof1</button>
